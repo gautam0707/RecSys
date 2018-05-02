@@ -8,8 +8,6 @@ class DateTimeHelper:
     """
     Date time helper provides some utility functions to work with date time
     """
-    def __init__(self):
-        pass
 
     @staticmethod
     def datetime_from_timestamp(time_stamp: int, time_zone=None):
